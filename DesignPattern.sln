@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型模式", "创建型模式", "{31656711-2783-464E-BFFD-A0E187CBBBDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单工厂模式", "简单工厂模式\简单工厂模式.csproj", "{1A021BB5-7C07-4875-B31D-7D6AFAC9A843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "工厂模式", "工厂模式\工厂模式.csproj", "{BF508659-15CA-47A8-B7B0-A4DC0850625D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象工厂模式", "抽象工厂模式\抽象工厂模式.csproj", "{09CEA914-71A1-4A0B-B7A7-973AE5BC2E27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A021BB5-7C07-4875-B31D-7D6AFAC9A843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A021BB5-7C07-4875-B31D-7D6AFAC9A843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A021BB5-7C07-4875-B31D-7D6AFAC9A843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A021BB5-7C07-4875-B31D-7D6AFAC9A843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF508659-15CA-47A8-B7B0-A4DC0850625D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF508659-15CA-47A8-B7B0-A4DC0850625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF508659-15CA-47A8-B7B0-A4DC0850625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF508659-15CA-47A8-B7B0-A4DC0850625D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CEA914-71A1-4A0B-B7A7-973AE5BC2E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CEA914-71A1-4A0B-B7A7-973AE5BC2E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CEA914-71A1-4A0B-B7A7-973AE5BC2E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CEA914-71A1-4A0B-B7A7-973AE5BC2E27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A021BB5-7C07-4875-B31D-7D6AFAC9A843} = {31656711-2783-464E-BFFD-A0E187CBBBDA}
+		{BF508659-15CA-47A8-B7B0-A4DC0850625D} = {31656711-2783-464E-BFFD-A0E187CBBBDA}
+		{09CEA914-71A1-4A0B-B7A7-973AE5BC2E27} = {31656711-2783-464E-BFFD-A0E187CBBBDA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F61A6B93-8468-477C-A92A-F5B57CE9AD78}
+	EndGlobalSection
+EndGlobal
