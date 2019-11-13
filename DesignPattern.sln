@@ -17,7 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "建造者模式", "建造�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "原型模式", "原型模式\原型模式.csproj", "{68DCC914-57D3-4C08-963A-1E5814E90B46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "原型模式二", "原型模式二\原型模式二.csproj", "{69141AD5-ACAF-476F-848D-F970F1D2B115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "原型模式二", "原型模式二\原型模式二.csproj", "{69141AD5-ACAF-476F-848D-F970F1D2B115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型模式", "结构型模式", "{74AD9E92-9766-498D-9048-434347CE6346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "适配器模式", "适配器模式\适配器模式.csproj", "{CB0D9183-5075-483E-8EB4-2320E8EAFC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "适配器模式二", "适配器模式二\适配器模式二.csproj", "{CFB04F2C-48A8-4653-824D-53679014CE68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,14 @@ Global
 		{69141AD5-ACAF-476F-848D-F970F1D2B115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69141AD5-ACAF-476F-848D-F970F1D2B115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69141AD5-ACAF-476F-848D-F970F1D2B115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0D9183-5075-483E-8EB4-2320E8EAFC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0D9183-5075-483E-8EB4-2320E8EAFC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0D9183-5075-483E-8EB4-2320E8EAFC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0D9183-5075-483E-8EB4-2320E8EAFC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB04F2C-48A8-4653-824D-53679014CE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB04F2C-48A8-4653-824D-53679014CE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB04F2C-48A8-4653-824D-53679014CE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB04F2C-48A8-4653-824D-53679014CE68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +79,8 @@ Global
 		{8BA4F814-63FA-4386-B529-60FA09265DBC} = {31656711-2783-464E-BFFD-A0E187CBBBDA}
 		{68DCC914-57D3-4C08-963A-1E5814E90B46} = {31656711-2783-464E-BFFD-A0E187CBBBDA}
 		{69141AD5-ACAF-476F-848D-F970F1D2B115} = {31656711-2783-464E-BFFD-A0E187CBBBDA}
+		{CB0D9183-5075-483E-8EB4-2320E8EAFC05} = {74AD9E92-9766-498D-9048-434347CE6346}
+		{CFB04F2C-48A8-4653-824D-53679014CE68} = {74AD9E92-9766-498D-9048-434347CE6346}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F61A6B93-8468-477C-A92A-F5B57CE9AD78}
