@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "适配器模式", "适配�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "适配器模式二", "适配器模式二\适配器模式二.csproj", "{CFB04F2C-48A8-4653-824D-53679014CE68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{BB116473-5C3E-4CA2-BDAE-09FD51CFCFA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "桥接模式", "桥接模式\桥接模式.csproj", "{BB116473-5C3E-4CA2-BDAE-09FD51CFCFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "代理模式", "代理模式\代理模式.csproj", "{EBD9C605-2A1F-47E2-A130-7AE43DC3EA9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{BB116473-5C3E-4CA2-BDAE-09FD51CFCFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB116473-5C3E-4CA2-BDAE-09FD51CFCFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB116473-5C3E-4CA2-BDAE-09FD51CFCFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD9C605-2A1F-47E2-A130-7AE43DC3EA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD9C605-2A1F-47E2-A130-7AE43DC3EA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD9C605-2A1F-47E2-A130-7AE43DC3EA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD9C605-2A1F-47E2-A130-7AE43DC3EA9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{CB0D9183-5075-483E-8EB4-2320E8EAFC05} = {74AD9E92-9766-498D-9048-434347CE6346}
 		{CFB04F2C-48A8-4653-824D-53679014CE68} = {74AD9E92-9766-498D-9048-434347CE6346}
 		{BB116473-5C3E-4CA2-BDAE-09FD51CFCFA3} = {74AD9E92-9766-498D-9048-434347CE6346}
+		{EBD9C605-2A1F-47E2-A130-7AE43DC3EA9F} = {74AD9E92-9766-498D-9048-434347CE6346}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F61A6B93-8468-477C-A92A-F5B57CE9AD78}
