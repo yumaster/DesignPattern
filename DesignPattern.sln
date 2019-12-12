@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "代理模式", "代理模�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "代理模式二", "代理模式二\代理模式二.csproj", "{5395F8D2-4E61-45F7-A36C-10F9DF738004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰者模式", "装饰者模式\装饰者模式.csproj", "{C7B1E497-E77D-49AB-A72C-1E7DFD272875}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "装饰者模式", "装饰者模式\装饰者模式.csproj", "{C7B1E497-E77D-49AB-A72C-1E7DFD272875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "组合模式", "组合模式\组合模式.csproj", "{34F60CCD-1BDC-49E4-A1AB-806E4D791487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{C7B1E497-E77D-49AB-A72C-1E7DFD272875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B1E497-E77D-49AB-A72C-1E7DFD272875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B1E497-E77D-49AB-A72C-1E7DFD272875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F60CCD-1BDC-49E4-A1AB-806E4D791487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F60CCD-1BDC-49E4-A1AB-806E4D791487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F60CCD-1BDC-49E4-A1AB-806E4D791487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F60CCD-1BDC-49E4-A1AB-806E4D791487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{EBD9C605-2A1F-47E2-A130-7AE43DC3EA9F} = {74AD9E92-9766-498D-9048-434347CE6346}
 		{5395F8D2-4E61-45F7-A36C-10F9DF738004} = {74AD9E92-9766-498D-9048-434347CE6346}
 		{C7B1E497-E77D-49AB-A72C-1E7DFD272875} = {74AD9E92-9766-498D-9048-434347CE6346}
+		{34F60CCD-1BDC-49E4-A1AB-806E4D791487} = {74AD9E92-9766-498D-9048-434347CE6346}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F61A6B93-8468-477C-A92A-F5B57CE9AD78}
