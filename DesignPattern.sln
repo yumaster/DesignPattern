@@ -33,11 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "代理模式二", "代理�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "装饰者模式", "装饰者模式\装饰者模式.csproj", "{C7B1E497-E77D-49AB-A72C-1E7DFD272875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "组合模式", "组合模式\组合模式.csproj", "{34F60CCD-1BDC-49E4-A1AB-806E4D791487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "组合模式", "组合模式\组合模式.csproj", "{34F60CCD-1BDC-49E4-A1AB-806E4D791487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "外观模式", "外观模式\外观模式.csproj", "{97868747-4E80-4A42-B565-0CF41C6F1D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "外观模式", "外观模式\外观模式.csproj", "{97868747-4E80-4A42-B565-0CF41C6F1D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "享元模式", "享元模式\享元模式.csproj", "{EE81EC54-38BE-4B6A-97C2-3560DB995974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "享元模式", "享元模式\享元模式.csproj", "{EE81EC54-38BE-4B6A-97C2-3560DB995974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "责任链模式", "责任链模式\责任链模式.csproj", "{9365B62C-3D6B-47E0-96F5-77EDEC6709B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +111,10 @@ Global
 		{EE81EC54-38BE-4B6A-97C2-3560DB995974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE81EC54-38BE-4B6A-97C2-3560DB995974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE81EC54-38BE-4B6A-97C2-3560DB995974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9365B62C-3D6B-47E0-96F5-77EDEC6709B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9365B62C-3D6B-47E0-96F5-77EDEC6709B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9365B62C-3D6B-47E0-96F5-77EDEC6709B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9365B62C-3D6B-47E0-96F5-77EDEC6709B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
