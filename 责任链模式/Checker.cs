@@ -10,7 +10,7 @@ namespace 责任链模式
     abstract class Checker
     {
         protected Checker successor;//定义后继对象
-        protected object objPara;//参数
+        //protected object objPara;//参数
         //public Checker(object objPara)
         //{
         //    this.objPara = objPara;

@@ -19,14 +19,12 @@ namespace 责任链模式
             bool ret;
             if (objPara.ToString() == "ONE")//true
             {
-                this.successor.ProcessRequest("TWO");
-                ret = true;
+                ret = this.successor.ProcessRequest("TWO");
             }
             else
             {
                 ret = false;
             }
-            Console.WriteLine(ret);
             return ret;
         }
     }
