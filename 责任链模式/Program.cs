@@ -8,15 +8,7 @@ namespace 责任链模式
     {
         static void Main(string[] args)
         {
-            Checker hdOne, hdTwo, hdThree;
-            hdOne = new CheckHandOne();
-            hdTwo = new CheckHandTwo();
-            hdThree = new CheckHandThree();
-
-            hdOne.SetSuccessor(hdTwo);//1->2
-            hdTwo.SetSuccessor(hdThree);//2->3
-
-            bool ret = hdOne.ProcessRequest("ONE");
+            bool ret = Helper.GetResult();
 
             Console.WriteLine(ret);
             Console.ReadKey();
