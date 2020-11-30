@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "责任链模式", "责任�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{FECEF7A7-3EE5-4124-B269-5986740B3BF2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "组合判断", "组合判断", "{94B68FB5-1EF5-43DA-94E3-D44BC2256368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineJudge", "CombineJudge\CombineJudge.csproj", "{2144B752-D9EA-4336-8F44-8BCA128ACDDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +125,10 @@ Global
 		{FECEF7A7-3EE5-4124-B269-5986740B3BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECEF7A7-3EE5-4124-B269-5986740B3BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECEF7A7-3EE5-4124-B269-5986740B3BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2144B752-D9EA-4336-8F44-8BCA128ACDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2144B752-D9EA-4336-8F44-8BCA128ACDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2144B752-D9EA-4336-8F44-8BCA128ACDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2144B752-D9EA-4336-8F44-8BCA128ACDDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +150,7 @@ Global
 		{34F60CCD-1BDC-49E4-A1AB-806E4D791487} = {74AD9E92-9766-498D-9048-434347CE6346}
 		{97868747-4E80-4A42-B565-0CF41C6F1D44} = {74AD9E92-9766-498D-9048-434347CE6346}
 		{EE81EC54-38BE-4B6A-97C2-3560DB995974} = {74AD9E92-9766-498D-9048-434347CE6346}
+		{2144B752-D9EA-4336-8F44-8BCA128ACDDD} = {94B68FB5-1EF5-43DA-94E3-D44BC2256368}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F61A6B93-8468-477C-A92A-F5B57CE9AD78}
