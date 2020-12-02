@@ -17,9 +17,10 @@ namespace 责任链模式
         {
             Console.WriteLine(this.GetType().Name);
             bool ret;
-            if (objPara.ToString() == "THREE")//true
+            if (objPara.ToString() == "THREE")//true最后一个
             {
-                ret = this.successor.ProcessRequest("FOUR");
+                //ret = this.successor.ProcessRequest("FOUR");
+                return true;
             }
             else
             {
